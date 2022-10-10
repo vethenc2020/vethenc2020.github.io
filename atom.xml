@@ -6,7 +6,7 @@
   <link href="https://8888.black/atom.xml" rel="self"/>
   
   <link href="https://8888.black/"/>
-  <updated>2022-10-08T08:57:20.860Z</updated>
+  <updated>2022-10-10T08:04:55.091Z</updated>
   <id>https://8888.black/</id>
   
   <author>
@@ -15,6 +15,83 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《GitHub入门与实践》阅读摘要记录</title>
+    <link href="https://8888.black/posts/454f7dfa.html"/>
+    <id>https://8888.black/posts/454f7dfa.html</id>
+    <published>2022-10-10T07:54:40.000Z</published>
+    <updated>2022-10-10T08:04:55.091Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="《GitHub入门与实践》阅读摘要记录"><a href="#《GitHub入门与实践》阅读摘要记录" class="headerlink" title="《GitHub入门与实践》阅读摘要记录"></a>《GitHub入门与实践》阅读摘要记录</h1><h3 id="问题导向"><a href="#问题导向" class="headerlink" title="问题导向"></a>问题导向</h3><p>在使用Hexo+GitHub架设博客过程中受阻，遇到文件clone、push、同步等问题解决不掉，不得不停下来认真学习GitHub的基本知识和操作方法。</p><h3 id="市场调研"><a href="#市场调研" class="headerlink" title="市场调研"></a>市场调研</h3><p>去当当搜索了一下，关于GitHub的书籍，比较新的有：</p><table><thead><tr><th>序号</th><th>名称</th><th>作者</th><th>出版时间</th><th>出版社</th></tr></thead><tbody><tr><td>1</td><td><a href="http://product.dangdang.com/23759340.html">GitHub入门</a>【O’Reilly】</td><td>(美)Peter Bell（彼得·贝尔），(美)Brent Beer（布伦特·比尔）</td><td>2015年08月</td><td>中国电力出版社</td></tr><tr><td>2</td><td><a href="http://product.dangdang.com/29264788.html">GitHub入门与实践</a>【图灵程序设计丛书】</td><td>[日]大塚弘记</td><td>2021年06月</td><td>人民邮电出版社</td></tr><tr><td>3</td><td><a href="http://product.dangdang.com/23990736.html">完全学会Git, GitHub, Git Server的24堂课</a></td><td>孙宏明</td><td>2016年06月</td><td>清华大学出版社</td></tr><tr><td>4</td><td><a href="http://product.dangdang.com/11241719718.html">GitHub实践</a>【O’Reilly】【图灵程序设计丛书】</td><td>美 克里斯 道森 Chris Dawson</td><td>2016年11月</td><td>人民邮电出版社</td></tr></tbody></table><p>按照计算机书籍一般读新不读旧的原则（经典书籍除外），本次选择的是《<a href="http://product.dangdang.com/29264788.html">GitHub入门与实践</a>》</p><h2 id="书籍简介"><a href="#书籍简介" class="headerlink" title="书籍简介"></a>书籍简介</h2><p><img src="https://raw.githubusercontent.com/vethenc2020/imgbed/master/img/image-20221010154944554.png" alt="image-20221010154944554"></p><div class="tabs" id="info"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#info-1">图书详情</button></li><li class="tab"><button type="button" data-href="#info-2">图书目录</button></li><li class="tab"><button type="button" data-href="#info-3">内容简介</button></li><li class="tab"><button type="button" data-href="#info-4">作者简介</button></li><li class="tab"><button type="button" data-href="#info-5">丛书信息</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="info-1"><p>作者: [日] 大塚弘记<br>出版社: 人民邮电出版社<br>出品方: 图灵教育<br>原作名: GitHub実践入門<br>译者: 支鹏浩 &#x2F; 刘斌<br>出版年: 2015-7<br>页数: 280<br>定价: 39.00元<br>装帧: 平装<br>丛书: 图灵程序设计丛书<br>ISBN: 9787115394095</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="info-2"><p>目录</p><p>第 1章　欢迎来到GitHub的世界　　1</p><p>1.1　什么是GitHub　　2</p><p>GitHub公司与octocat　　2</p><p>并不只是Git仓库的托管服务　　3</p><p>GitHub的使用情况　　3</p><p>Column 专栏：GitHub与Git的区别　　4</p><p>1.2　使用GitHub会带来哪些变化　　4</p><p>协作形式变化　　4</p><p>在开发 者之间引发化学反应的Pull Request　　5</p><span id="more"></span><p>对特定用户进行评论　　6</p><p>GitHub Flavored Markdown　　7</p><p>Column 专栏：还可以这样写!!　　7</p><p>能看到更多其他团队的软件　　7</p><p>与开源软件相同的开发模式　　8</p><p>1.3　社会化编程　　9</p><p>1.4　为什么需要社会化编程　　10</p><p>不要闭目塞听，要接触不同的文化　　10</p><p>会写代码的程序员更受青睐　　11</p><p>GitHub**大的特征是“面向人”　　11</p><p>1.5　GitHub提供的主要功能　　12</p><p>Git仓库　　12</p><p>Organization　　12</p><p>Issue　　13</p><p>Wiki　　13</p><p>Pull Request　　13</p><p>Column 专栏：GitHub上受到瞩目的软件　　14</p><p>1.6　小结　　14</p><p>参考资料　　14</p><p>第 2章　Git的导入　　17</p><p>2.1　诞生背景　　18</p><p>2.2　什么是版本管理　　18</p><p>集中型与分散型　　19</p><p>集中型　　19</p><p>分散型　　19</p><p>集中型与分散型哪个更好　　20</p><p>2.3　安装　　21</p><p>Mac与Linux　　21</p><p>Windows　　21</p><p>组件的选择　　22</p><p>设置环境变量　　22</p><p>换行符的处理　　23</p><p>Git Bash　　23</p><p>本书所用的环境　　24</p><p>2.4　初始设置　　24</p><p>设置姓名和邮箱地址　　24</p><p>提高命令输出的可读性　　25</p><p>2.5　小结　　25</p><p>第3章　使用GitHub的前期准备　　27</p><p>3.1　使用前的准备　　28</p><p>创建账户　　28</p><p>设置头像　　29</p><p>设置SSH Key　　29</p><p>添加公开密钥　　30</p><p>使用社区功能　　31</p><p>3.2　实际动手使用　　31</p><p>创建仓库　　31</p><p>Repository name　　32</p><p>Description　　32</p><p>Public、Private　　32</p><p>Initialize this repository with a README　　32</p><p>Add .gitignore　　33</p><p>Add a license　　33</p><p>连接仓库　　33</p><p>README.md　　33</p><p>GitHub Flavored Markdown　　34</p><p>公开代码　　34</p><p>clone已有仓库　　34</p><p>编写代码　　35</p><p>提交　　36</p><p>Column 专栏：公开时的许可协议　　37</p><p>进行push　　37</p><p>3.3　小结　　38</p><p>第4章　通过实际操作学习Git　　39</p><p>4.1　基本操作　　40</p><p>git init——初始化仓库　　40</p><p>git status——查看仓库的状态　　40</p><p>git add——向暂存区中添加文件　　41</p><p>git commit——保存仓库的历史记录　　42</p><p>记述一行提交信息　　42</p><p>记述详细提交信息　　42</p><p>中止提交　　43</p><p>查看提交后的状态　　43</p><p>git log——查看提交日志　　43</p><p>只显示提交信息的第 一行　　44</p><p>只显示指定目录、文件的日志　　44</p><p>显示文件的改动　　45</p><p>git diff——查看更改前后的差别　　45</p><p>查看工作树和暂存区的差别　　45</p><p>查看工作树和**新提交的差别　　46</p><p>4.2　分支的操作　　47</p><p>git branch——显示分支一览表　　48</p><p>git checkout -b——创建、切换分支　　48</p><p>切换到feature-A分支并进行提交　　48</p><p>切换到master分支　　49</p><p>切换回上一个分支　　50</p><p>特性分支　　50</p><p>主干分支　　51</p><p>git merge——合并分支　　51</p><p>git log –graph——以图表形式查看分支　　52</p><p>4.3　更改提交的操作　　53</p><p>git reset——回溯历史版本　　53</p><p>回溯到创建feature-A分支前　　53</p><p>创建fix-B分支　　54</p><p>推进到feature-A分支合并后的状态　　55</p><p>消除冲突　　56</p><p>查看冲突部分并将其解决　　57</p><p>提交解决后的结果　　57</p><p>git commit –amend——修改提交信息　　58</p><p>git rebase -i——压缩历史　　59</p><p>创建feature-C分支　　59</p><p>修正拼写错误　　60</p><p>更改历史　　61</p><p>合并到master分支　　63</p><p>4.4　推送到远程仓库　　63</p><p>gitremote add——添加远程仓库　　64</p><p>git push——推送到远程仓库　　64</p><p>推送到master分支　　64</p><p>推送到master以外的分支　　65</p><p>4.5　从远程仓库获取　　65</p><p>git clone——获取远程仓库　　65</p><p>获取远程仓库　　65</p><p>获取远程的feature-D分支　　66</p><p>向本地的feature-D分支提交更改　　67</p><p>推送feature-D分支　　67</p><p>git pull——获取**新的远程仓库分支　　67</p><p>4.6　帮助大家深入理解Git的资料　　68</p><p>Pro Git　　68</p><p>LearnGitBranching　　69</p><p>tryGit　　69</p><p>4.7　小结　　70</p><p>第5章　详细解说GitHub的功能　　71</p><p>5.1　键盘快捷键　　72</p><p>5.2　工具栏　　73</p><p>关于UI　　73</p><p>1LOGO　　73</p><p>2Notifications　　73</p><p>3 搜索窗口　　73</p><p>4Explore　　73</p><p>5Gist　　74</p><p>6Blog　　74</p><p>7Help　　74</p><p>8 头像、用户名　　74</p><p>9 Create a new　　74</p><p>Account settings　　75</p><p>Sign out　　75</p><p>5.3　控制面板　　75</p><p>关于UI　　75</p><p>①News Feed　　76</p><p>②Pull Requests　　76</p><p>③Issues　　76</p><p>④Stars　　76</p><p>⑤Broadcast　　76</p><p>⑥Repositories you contribute to　　76</p><p>⑦Your Repositories　　76</p><p>5.4　个人信息　　77</p><p>关于UI　　77</p><p>1 用户信息　　77</p><p>2Popular Repositories　　78</p><p>3Repositories contributed to　　78</p><p>4Public contributions　　78</p><p>5Contribution Activity　　78</p><p>6Repositories　　78</p><p>7Public Activity　　79</p><p>5.5　仓库　　80</p><p>关于UI　　80</p><p>①用户名（组织名）&#x2F;仓库名　　80</p><p>②Watch&#x2F;Star&#x2F;Fork　　80</p><p>③Code　　81</p><p>④Issue　　81</p><p>⑤Pull Requests　　81</p><p>⑥Wiki　　82</p><p>⑦Pulse　　82</p><p>⑧Graphs　　82</p><p>⑨Network　　82</p><p>⑩Settings　　82</p><p>SSH clone URL　　82</p><p>Clone in Desktop　　82</p><p>Download ZIP　　83</p><p>acommits　　83</p><p>bbranches　　83</p><p>creleases　　83</p><p>dcontributors　　83</p><p>eCompare &amp; review　　83</p><p>fbranch　　83</p><p>gpath　　84</p><p>hFork this project and Create a new file　　84</p><p>ifiles　　84</p><p>文件的相关操作　　84</p><p>Column专栏：通过部分名称搜索文件　　85</p><p>查看差别　　85</p><p>查看分支间的差别　　85</p><p>查看与几天前的差别　　86</p><p>查看与指定日期之间的差别　　87</p><p>5.6　Issue　　87</p><p>简洁且表现力丰富的描述方法　　88</p><p>语法高亮　　89</p><p>添加图片　　90</p><p>添加标签以便整理　　90</p><p>添加里程碑以便管理　　91</p><p>Column 专栏：了解贡献时的规则！　　92</p><p>Tasklist语法　　92</p><p>通过提交信息操作Issue　　93</p><p>在相关Issue中显示提交　　93</p><p>Close Issue　　93</p><p>将特定的Issue转换为Pull Request　　94</p><p>5.7　Pull Request　　94</p><p>Column 专栏：获取diff格式与patch格式的文件　　96</p><p>Conversation　　96</p><p>Column 专栏：引用评论　　96</p><p>Commits　　97</p><p>Column 专栏：在评论中应用表情　　98</p><p>Files Changed　　98</p><p>5.8　Wiki　　99</p><p>Pages　　100</p><p>History　　101</p><p>Column 专栏：在Wiki中显示侧边栏　　101</p><p>5.9　Pulse　　102</p><p>active pull requests　　103</p><p>active issue　　103</p><p>commits　　104</p><p>Releases published　　104</p><p>Unresolved Conversations　　104</p><p>5.10　Graphs　　105</p><p>Contributors　　105</p><p>Commit Activity　　1</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="info-3"><p>《GitHub入门与实践》从Git的基本知识和操作方法入手，详细介绍了GitHub的各种功能，GitHub与其他工具或服务的协作，使用GitHub的开发流程以及如何将GitHub引入到企业中。在讲解GitHub的代表功能Pull Request时，本书专门搭建了供各位读者实践的仓库，邀请各位读者进行Pull Request并共同维护。</p><p>《GitHub入门与实践》旨在指导各位读者如何在开发现场使用GitHub进行高效开发，适合所有想要使用GitHub进行开发的程序员或团队阅读。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="info-4"><p>大塚弘记，将敏捷软件开发导入开发现场的领军人物，以顾问身份就Web应用的开发及服务指导过多家企业和团队。曾为多家企业和团队导入GitHub，在建立一天之内多次部署的开发体制方面拥有丰富经验。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="info-5"><p><a href="https://book.douban.com/series/660">图灵程序设计丛书 (共102册)</a>, 这套丛书还有 《Python自然语言处理实战》,《逆向工程核心原理》,《软件测试》,《白话机器学习算法》,《程序员的算法趣题》 等。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="第1章"><a href="#第1章" class="headerlink" title="第1章"></a>第1章</h2><p>……</p><h3 id="1-1"><a href="#1-1" class="headerlink" title="1.1"></a>1.1</h3><p>……</p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;《GitHub入门与实践》阅读摘要记录&quot;&gt;&lt;a href=&quot;#《GitHub入门与实践》阅读摘要记录&quot; class=&quot;headerlink&quot; title=&quot;《GitHub入门与实践》阅读摘要记录&quot;&gt;&lt;/a&gt;《GitHub入门与实践》阅读摘要记录&lt;/h1&gt;&lt;h3 id=&quot;问题导向&quot;&gt;&lt;a href=&quot;#问题导向&quot; class=&quot;headerlink&quot; title=&quot;问题导向&quot;&gt;&lt;/a&gt;问题导向&lt;/h3&gt;&lt;p&gt;在使用Hexo+GitHub架设博客过程中受阻，遇到文件clone、push、同步等问题解决不掉，不得不停下来认真学习GitHub的基本知识和操作方法。&lt;/p&gt;
+&lt;h3 id=&quot;市场调研&quot;&gt;&lt;a href=&quot;#市场调研&quot; class=&quot;headerlink&quot; title=&quot;市场调研&quot;&gt;&lt;/a&gt;市场调研&lt;/h3&gt;&lt;p&gt;去当当搜索了一下，关于GitHub的书籍，比较新的有：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;序号&lt;/th&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th&gt;作者&lt;/th&gt;
+&lt;th&gt;出版时间&lt;/th&gt;
+&lt;th&gt;出版社&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://product.dangdang.com/23759340.html&quot;&gt;GitHub入门&lt;/a&gt;【O’Reilly】&lt;/td&gt;
+&lt;td&gt;(美)Peter Bell（彼得·贝尔），(美)Brent Beer（布伦特·比尔）&lt;/td&gt;
+&lt;td&gt;2015年08月&lt;/td&gt;
+&lt;td&gt;中国电力出版社&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://product.dangdang.com/29264788.html&quot;&gt;GitHub入门与实践&lt;/a&gt;【图灵程序设计丛书】&lt;/td&gt;
+&lt;td&gt;[日]大塚弘记&lt;/td&gt;
+&lt;td&gt;2021年06月&lt;/td&gt;
+&lt;td&gt;人民邮电出版社&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://product.dangdang.com/23990736.html&quot;&gt;完全学会Git, GitHub, Git Server的24堂课&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;孙宏明&lt;/td&gt;
+&lt;td&gt;2016年06月&lt;/td&gt;
+&lt;td&gt;清华大学出版社&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://product.dangdang.com/11241719718.html&quot;&gt;GitHub实践&lt;/a&gt;【O’Reilly】【图灵程序设计丛书】&lt;/td&gt;
+&lt;td&gt;美 克里斯 道森 Chris Dawson&lt;/td&gt;
+&lt;td&gt;2016年11月&lt;/td&gt;
+&lt;td&gt;人民邮电出版社&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;按照计算机书籍一般读新不读旧的原则（经典书籍除外），本次选择的是《&lt;a href=&quot;http://product.dangdang.com/29264788.html&quot;&gt;GitHub入门与实践&lt;/a&gt;》&lt;/p&gt;
+&lt;h2 id=&quot;书籍简介&quot;&gt;&lt;a href=&quot;#书籍简介&quot; class=&quot;headerlink&quot; title=&quot;书籍简介&quot;&gt;&lt;/a&gt;书籍简介&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/vethenc2020/imgbed/master/img/image-20221010154944554.png&quot; alt=&quot;image-20221010154944554&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;tabs&quot; id=&quot;info&quot;&gt;&lt;ul class=&quot;nav-tabs&quot;&gt;&lt;li class=&quot;tab active&quot;&gt;&lt;button type=&quot;button&quot; data-href=&quot;#info-1&quot;&gt;图书详情&lt;/button&gt;&lt;/li&gt;&lt;li class=&quot;tab&quot;&gt;&lt;button type=&quot;button&quot; data-href=&quot;#info-2&quot;&gt;图书目录&lt;/button&gt;&lt;/li&gt;&lt;li class=&quot;tab&quot;&gt;&lt;button type=&quot;button&quot; data-href=&quot;#info-3&quot;&gt;内容简介&lt;/button&gt;&lt;/li&gt;&lt;li class=&quot;tab&quot;&gt;&lt;button type=&quot;button&quot; data-href=&quot;#info-4&quot;&gt;作者简介&lt;/button&gt;&lt;/li&gt;&lt;li class=&quot;tab&quot;&gt;&lt;button type=&quot;button&quot; data-href=&quot;#info-5&quot;&gt;丛书信息&lt;/button&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;tab-contents&quot;&gt;&lt;div class=&quot;tab-item-content active&quot; id=&quot;info-1&quot;&gt;&lt;p&gt;作者: [日] 大塚弘记&lt;br&gt;出版社: 人民邮电出版社&lt;br&gt;出品方: 图灵教育&lt;br&gt;原作名: GitHub実践入門&lt;br&gt;译者: 支鹏浩 &amp;#x2F; 刘斌&lt;br&gt;出版年: 2015-7&lt;br&gt;页数: 280&lt;br&gt;定价: 39.00元&lt;br&gt;装帧: 平装&lt;br&gt;丛书: 图灵程序设计丛书&lt;br&gt;ISBN: 9787115394095&lt;/p&gt;&lt;button type=&quot;button&quot; class=&quot;tab-to-top&quot; aria-label=&quot;scroll to top&quot;&gt;&lt;i class=&quot;fas fa-arrow-up&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;div class=&quot;tab-item-content&quot; id=&quot;info-2&quot;&gt;&lt;p&gt;目录&lt;/p&gt;
+&lt;p&gt;第 1章　欢迎来到GitHub的世界　　1&lt;/p&gt;
+&lt;p&gt;1.1　什么是GitHub　　2&lt;/p&gt;
+&lt;p&gt;GitHub公司与octocat　　2&lt;/p&gt;
+&lt;p&gt;并不只是Git仓库的托管服务　　3&lt;/p&gt;
+&lt;p&gt;GitHub的使用情况　　3&lt;/p&gt;
+&lt;p&gt;Column 专栏：GitHub与Git的区别　　4&lt;/p&gt;
+&lt;p&gt;1.2　使用GitHub会带来哪些变化　　4&lt;/p&gt;
+&lt;p&gt;协作形式变化　　4&lt;/p&gt;
+&lt;p&gt;在开发 者之间引发化学反应的Pull Request　　5&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://8888.black/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Github" scheme="https://8888.black/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/Github/"/>
+    
+    
+    <category term="GitHub" scheme="https://8888.black/tags/GitHub/"/>
+    
+    <category term="读书笔记" scheme="https://8888.black/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Git备份Hexo代码</title>
