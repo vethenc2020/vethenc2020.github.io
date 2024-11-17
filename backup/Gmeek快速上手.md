@@ -16,3 +16,5 @@
 ```通过Actions->build Gmeek->Run workflow->里面的按钮全局重新生成一次```
 
 网友制作的视频教程：https://www.bilibili.com/video/BV1GM4m1m7ZD/
+
+<!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>"}## -->
