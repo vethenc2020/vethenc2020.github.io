@@ -210,4 +210,4 @@ Gmeek的可定制化功能非常高，下面的链接是一些更加高级的设
 https://meekdai.github.io/tag.html#Gmeek
 
 > [!IMPORTANT]
-> 转载地址：https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html#7.-%E7%BD%AE%E9%A1%B6%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0
+> 转载地址：https://blog.meekdai.com/
