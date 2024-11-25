@@ -1,7 +1,5 @@
 # 【Gmeek进阶】①亮暗主题配置方式
 
-
-
 这篇文章详细说一下目前Gmeek支持的亮暗主题配置方式，以及后续待改进之处。
 
 ## 手动模式（默认）
@@ -13,8 +11,6 @@
 "dayTheme":"light",
 "nightTheme":"dark",
 ```
-
-
 
 ## 固定模式
 
@@ -28,8 +24,6 @@
 "nightTheme":"github-light",
 ```
 
-
-
 ### 固定暗主题
 
 ```
@@ -37,8 +31,6 @@
 "dayTheme":"dark",
 "nightTheme":"dark-blue",
 ```
-
-
 
 这里提到的亮暗主题可以查看[github官方](https://github.com/settings/appearance)支持的主题，这里都支持
 
@@ -59,8 +51,6 @@ boxy-light
 gruvbox-dark
 ```
 
-
-
 ## 其他
 
 目前做到的就是这些功能，可以定义的主题模式有限，但还是有一些选择的。可以优化的地方还有很多，如果有其他主题方面的需求或者建议欢迎一起讨论和完善。
@@ -69,10 +59,7 @@ gruvbox-dark
 2、手动模式目前访问者第一次打开页面是亮主题，是否需要实现第一次打开是暗主题或者是跟随系统？
 
 
-
 # 【Gmeek进阶】②强调关键信息使用
-
-
 
 Github的语法里面有5中警报强调信息，分别是`NOTE` `TIP` `IMPORTANT` `WARNING` `CAUTION` 。在写文章的时候，适当使用可以提高文章的可读性，并且颜色也更加丰富。下面就简单描述一下使用方式，以及效果如何。
 
@@ -94,7 +81,6 @@ Github的语法里面有5中警报强调信息，分别是`NOTE` `TIP` `IMPORTAN
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 ```
-
 
 
 ## 效果
@@ -121,10 +107,7 @@ Github的语法里面有5中警报强调信息，分别是`NOTE` `TIP` `IMPORTAN
 参考链接：https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts
 
 
-
 # 【Gmeek进阶】③文章插入html标签
-
-
 
 Github由于安全考虑，是不允许使用`iframe`等标签的，而且在issues插入的图片也会自动转换为github的地址。为了文章的多样性，在Gmeek的`v2.19`版本中添加了支持html标签的功能。
 
@@ -137,7 +120,6 @@ Github由于安全考虑，是不允许使用`iframe`等标签的，而且在iss
 ```
 `Gmeek-html<img src="https://picsum.photos/200">`
 ```
-
 
 
 ![img](https://picsum.photos/200)
@@ -161,7 +143,6 @@ Github由于安全考虑，是不允许使用`iframe`等标签的，而且在iss
 `Gmeek-html<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/0U3fV7K4WFfVRgLGEAKh3g?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>`
 
 
-
 ### 内嵌框架iframe-视频
 
 ```
@@ -171,16 +152,12 @@ Github由于安全考虑，是不允许使用`iframe`等标签的，而且在iss
 `Gmeek-html<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1604800941&bvid=BV1qm421M7Xs&cid=1557311907&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="460px"></iframe>`
 
 
-
 ## 其他
 
 上面仅仅是示例了一些经常会使用到的html标签，其他html标签同样也是支持的，大家可以尝试添加到自己的文章中。 🥂
 
 
-
 # 【Gmeek进阶】④static文件夹使用
-
-
 
 有很多小伙伴反馈说需要在docs文件内上传一些自己的文件，比如图片、js、css等，所以在`v2.20`版本添加了这个功能。下面就简单说明一下使用方法。
 
@@ -200,10 +177,7 @@ Github由于安全考虑，是不允许使用`iframe`等标签的，而且在iss
 在全局生成的时候，Actions会自动把`static`文件夹的所有内容拷贝到`docs`文件夹内。方便用户把docs当成一个目录部署到CF等其他服务器中。
 
 
-
 # 【Gmeek进阶】⑤右上角圆按钮配置
-
-
 
 在博客首页的右上角有一些圆形的按钮，有同学不知道如何配置它们，下面就详细介绍一下配置的方式。
 
@@ -216,8 +190,6 @@ Github由于安全考虑，是不允许使用`iframe`等标签的，而且在iss
 ```
 "singlePage":["about"],
 ```
-
-
 
 1. 添加一个Labels标签为`about`，在你的issue里面写一个文章，然后配置Labels为`about`即可。
 2. 手动全局生成一次。
@@ -238,8 +210,6 @@ Github由于安全考虑，是不允许使用`iframe`等标签的，而且在iss
 "exlink":{"music":"https://music.meekdai.com"},
 ```
 
-
-
 2. 手动全局生成一次。
 
 > [!TIP]
@@ -253,11 +223,7 @@ Github由于安全考虑，是不允许使用`iframe`等标签的，而且在iss
 Octicons图标链接：https://primer.style/foundations/icons/#16px
 我自己转换的Octicons图标path列表：https://gist.github.com/Meekdai/f6375fe2740428af39d90f1afa678fdc
 
-
-
 # 【Gmeek进阶】⑥插件功能的使用
-
-
 
 为了使得Gmeek的功能更加的丰富，我添加了插件的功能，目前已经有几个插件可以使用。大家可以直接复制文章中的配置代码使用，也可以把对应的插件文件拷贝到自己的static文件夹下使用。
 
@@ -273,15 +239,11 @@ Octicons图标链接：https://primer.style/foundations/icons/#16px
 "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>",
 ```
 
-
-
 2. 单个文章页添加不蒜子，只需要在文章最后一行添加如下
 
 ```
 <!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>"}## -->
 ```
-
-
 
 ## Vercount
 
@@ -294,15 +256,11 @@ Octicons图标链接：https://primer.style/foundations/icons/#16px
 "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
 ```
 
-
-
 2. 单个文章页添加不蒜子，只需要在文章最后一行添加如下
 
 ```
 <!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>"}## -->
 ```
-
-
 
 ## TOC目录
 
@@ -316,15 +274,11 @@ Octicons图标链接：https://primer.style/foundations/icons/#16px
 "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
 ```
 
-
-
 2. 单个文章页添加TOC目录，只需要在文章最后一行添加如下
 
 ```
 <!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>"}## -->
 ```
-
-
 
 ## articletoc
 
@@ -335,8 +289,6 @@ Octicons图标链接：https://primer.style/foundations/icons/#16px
 ```
 https://blog.meekdai.com/Gmeek/plugins/articletoc.js
 ```
-
-
 
 ## 灯箱插件
 
@@ -350,15 +302,11 @@ https://blog.meekdai.com/Gmeek/plugins/articletoc.js
 "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
 ```
 
-
-
 2. 单个文章页添加lightbox，只需要在文章最后一行添加如下
 
 ```
 <!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>"}## -->
 ```
-
-
 
 ## 多插件使用
 
@@ -368,14 +316,11 @@ https://blog.meekdai.com/Gmeek/plugins/articletoc.js
 "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
 ```
 
-
-
 同时在一篇文章页使用`TOC目录`和`灯箱插件`，需要这样添加配置文件：
 
 ```
 <!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>"}## -->
 ```
-
 
 > [!CAUTION]
 > 需要特别注意区分`script` `head` `allHead` 等这些键的用途，详细请参考 [Gmeek快速上手](https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html#二、配置文件)
@@ -386,5 +331,3 @@ https://blog.meekdai.com/Gmeek/plugins/articletoc.js
 
 > [!IMPORTANT]
 > 转载地址：https://blog.meekdai.com/
-
-<!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>"}## -->
