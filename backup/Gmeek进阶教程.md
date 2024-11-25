@@ -383,3 +383,8 @@ https://blog.meekdai.com/Gmeek/plugins/articletoc.js
 ## 其他
 
 有了插件就可以在基础版的Gmeek框架上玩出很多很多定制化的功能，简单的UI修改也可以通过插件实现，只需要学习一点点前端知识，另外非常欢迎大家一起完善Gmeek，开发出更多的插件。
+
+> [!IMPORTANT]
+> 转载地址：https://blog.meekdai.com/
+
+<!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>"}## -->
