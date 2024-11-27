@@ -3,5 +3,6 @@
     "subTitle":"Less is More",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "GMEEK_VERSION":"last",
-    "script":"<script src='https://blog.meekdai.com/Gmeek/assets/GmeekTOC.js'></script>"
+    "//script":"<script src='https://blog.meekdai.com/Gmeek/assets/GmeekTOC.js'></script>"
+    "script":"<script src='https://github.com/vethenc2020/vethenc2020.github.io/blob/main/static/assets/GmeekTOC.js'></script>"
 }
